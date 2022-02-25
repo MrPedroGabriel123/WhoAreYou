@@ -10,7 +10,7 @@ namespace GettingInput
             Console.WriteLine($"Hello, {nome}!");
             Console.WriteLine("how old are you?");
             var idade = Console.ReadLine();
-            Console.WriteLine($"So your name is {nome} and you are {idade} years old! ");
+            Console.WriteLine($"oh, your name is {nome} and you have {idade} years old, nice :)! ");
             
         }
     }
