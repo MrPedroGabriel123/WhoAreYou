@@ -4,7 +4,9 @@ namespace GettingInput
     class whoareyou
     {
         static void Main()
-        { 
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+
             Console.WriteLine("Whats your name?");
             var name = Console.ReadLine();
             Console.WriteLine($"Hello, {name}!");
