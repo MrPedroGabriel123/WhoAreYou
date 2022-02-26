@@ -7,7 +7,7 @@ namespace GettingInput
         {
             Console.ForegroundColor = ConsoleColor.Red;
 
-            Console.WriteLine("Whats your name?");
+            Console.WriteLine("What´s your name?");
             var name = Console.ReadLine();
             Console.WriteLine($"Hello, {name}!");
             Console.WriteLine("how old are you?");
