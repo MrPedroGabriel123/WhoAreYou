@@ -12,12 +12,12 @@ namespace GettingInput
             var age = Console.ReadLine();
             Console.WriteLine($"oh, your name is {name} and you have {age} years old, nice :)! ");
             Console.WriteLine($"Are you having a nice day {name}? (yes/no)");
-           
-                if (yes)
+            string answer = Console.ReadLine();
+              if (answer == "yes")
             {
                 Console.WriteLine("Nice mate :D");
             }
-                if (no)
+            if (answer == "no")
             {
                 Console.WriteLine("It will get better :D!");
             }
